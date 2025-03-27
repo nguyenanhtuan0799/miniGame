@@ -7,11 +7,14 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "apk": "cd android && ./gradlew assembleRelease",
+    "abb": "cd android && ./gradlew bundleRelease"
   },
   "dependencies": {
     "react": "19.0.0",
-    "react-native": "0.78.1"
+    "react-native": "0.78.1",
+    "rn-sprite-sheet": "^1.1.3"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",

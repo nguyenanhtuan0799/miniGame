@@ -6882,6 +6882,7 @@ __metadata:
     react: 19.0.0
     react-native: 0.78.1
     react-test-renderer: 19.0.0
+    rn-sprite-sheet: ^1.1.3
     typescript: 5.0.4
   languageName: unknown
   linkType: soft
@@ -8047,6 +8048,16 @@ __metadata:
   bin:
     rimraf: dist/esm/bin.mjs
   checksum: 50e27388dd2b3fa6677385fc1e2966e9157c89c86853b96d02e6915663a96b7ff4d590e14f6f70e90f9b554093aa5dbc05ac3012876be558c06a65437337bc05
+  languageName: node
+  linkType: hard
+
+"rn-sprite-sheet@npm:^1.1.3":
+  version: 1.1.12
+  resolution: "rn-sprite-sheet@npm:1.1.12"
+  peerDependencies:
+    react: ^16.6.1
+    react-native: ^0.57.5
+  checksum: 24e616152c414b917c00af88f554061b5a778946055b2c7d9d9404a3431989ac599da5fafb70f0f567c41ca1adc1abe206ea26e8a161ee77dbe2392a101dea53
   languageName: node
   linkType: hard
 
