@@ -134,7 +134,6 @@ export default class HomeScreen extends Component {
     if (this.state.cleared || this.state.gameOver || this.state.paused) {
       return;
     }
-
     let targetHealth = this.state.health - 10 < 0 ? 0 : this.state.health - 10;
 
     this.setState({
@@ -171,6 +170,8 @@ export default class HomeScreen extends Component {
         Constants.XR * 6) *
         this.state.health) /
       100;
+    console.log(this.state.hummer, 'this.state.hummer');
+
     return (
       <View style={styles.container}>
         <Image
