@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1057513417007",
+    "project_id": "crazy-ouse",
+    "storage_bucket": "crazy-ouse.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057513417007:android:5197233b6ff7c5801b59da",
+        "android_client_info": {
+          "package_name": "com.com.crazymouse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqgiUWz610_v_rYJX7PnZYVCuR9B_Yyws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
